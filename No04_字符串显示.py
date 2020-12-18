@@ -19,4 +19,15 @@ print("abc\ndef")
 # 加“r”取消转译
 print(r"abc\ndef")
 
+# 例子
+# 敏感词替换
+st = "我反共，反中国，我是坏人，我造反，啦啦啦"
+newst1 = st.replace("反共", "**").replace("反中", "爱中").replace("坏", "好")
+# 替换次数
+newst2 = st.replace("反", "爱", 2)
+print(newst1)
+print(newst2)
+
+
+
 
